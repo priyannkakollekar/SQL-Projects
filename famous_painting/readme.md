@@ -122,7 +122,7 @@ SELECT t2.name, t2.city
 FROM cte t1 
 JOIN museum t2 ON t1.museum_id = t2.museum_id;
 ```
-View the full list of queries and explanations in the [SQL Script]().
+View the full list of queries and explanations in the [SQL Script](https://github.com/priyannkakollekar/SQL-Projects/blob/main/famous_painting/famous_painting.sql).
 
 ## Challenges Faced
 - Data Cleaning: Handling duplicate records in multiple tables required careful use of window functions and CTEs.
